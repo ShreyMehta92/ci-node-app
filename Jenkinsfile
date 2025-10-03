@@ -7,7 +7,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/ShreyMehta92/ci-node-app.git'
             }
         }
-
+        
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t node-app .'
