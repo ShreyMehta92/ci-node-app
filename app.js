@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello from CI-CD app! My ID is: 23IT061');
+  res.send('Hello from CI-CD app!');
 });
 
 module.exports = app;

@@ -6,6 +6,6 @@ describe('GET /', () => {
   it('responds with hello message', async () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toBe(200);
-    expect(res.text).toBe('Hello from CI-CD app! My ID is: 23IT061');
+    expect(res.text).toBe('Hello from CI-CD app!');
   });
 });
